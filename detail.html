@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bodima.lk</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <!-- Ionicons -->
+    <link
+      rel="stylesheet"
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <!-- Tempusdominus Bbootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css"
+    />
+    <!-- iCheck -->
+    <link
+      rel="stylesheet"
+      href="plugins/icheck-bootstrap/icheck-bootstrap.min.css"
+    />
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css" />
+    <!-- overlayScrollbars -->
+    <link
+      rel="stylesheet"
+      href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css"
+    />
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css" />
+    <!-- summernote -->
+    <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css" />
+    <!-- Google Font: Source Sans Pro -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <img class="navbar-brand" src="assets/house.png" />
+        <a class="navbar-brand font-weight-bold" href="./index.html"
+          >Bodima.lk</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"
+                >Home
+                <span class="sr-only">(current)</span>
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./example.html"
+                >Login
+                <i class="fa fa-sign-in-alt" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Contact
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <button
+                type="button"
+                id="postButton"
+                class="btn btn-warning font-weight-bold text-dark text-uppercase l-5"
+              >
+                Post your Add
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="background">
+      <div class="container">
+        <section class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1>E-commerce</h1>
+              </div>
+              <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active">E-commerce</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- /.container-fluid -->
+        </section>
+
+        <!-- Main content -->
+        <!-- Default box -->
+        <div class="card card-solid">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="col-12">
+                  <img
+                    src="./assets/d1.webp"
+                    class="product-image"
+                    alt="Product Image"
+                  />
+                </div>
+                <div class="col-12 product-image-thumbs">
+                  <div class="product-image-thumb active">
+                    <img src="./assets/d2.webp" alt="Product Image" />
+                  </div>
+                  <div class="product-image-thumb">
+                    <img src="./assets/d1.webp" alt="Product Image" />
+                  </div>
+                  <div class="product-image-thumb">
+                    <img src="./assets/d4.webp" alt="Product Image" />
+                  </div>
+                  <div class="product-image-thumb">
+                    <img src="./assets/d5.webp" alt="Product Image" />
+                  </div>
+                  <div class="product-image-thumb">
+                    <img src="./assets/d2.webp" alt="Product Image" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div>
+                  <b><h3 class="my-3"></h3></b>
+                  <a class="float-right"
+                    ><i class="fa fa-share-alt text-muted"> Share</i>
+                  </a>
+                </div>
+                <h3 class="my-3">LOWA Uncle's Villa</h3>
+                <div>
+                  <span class="fa fa-star checked text-yellow"></span>
+                  <span>4.5</span>
+                </div>
+                <p>
+                  Raw denim you probably haven't heard of them jean shorts
+                  Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh
+                  dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.
+                </p>
+                <div class="row">
+                  <div class="col-lg-4">
+                    <p>Gender: Male</p>
+                  </div>
+                  <div class="col-lg-4">
+                    <p>Type: Full House</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <p>Phone: +94 77 851 21</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-5">
+                    <p>Is this number working?</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="icheck-primary d-inline ml-2">
+                      <input
+                        type="radio"
+                        name="optradio"
+                        name="phoneCheck1"
+                        id="phoneCheck1"
+                      />
+                      <label for="phoneCheck1"></label>
+                    </div>
+                    <span class="text">Yes</span>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="icheck-primary d-inline ml-2">
+                      <input
+                        type="radio"
+                        name="optradio"
+                        name="phoneCheck2"
+                        id="phoneCheck2"
+                      />
+                      <label for="phoneCheck2"></label>
+                    </div>
+                    <span class="text">No</span>
+                  </div>
+                  <div class="col-lg-3">
+                    <i class="fas fa-arrow-right" style="cursor: pointer"></i>
+                  </div>
+                </div>
+
+                <hr />
+
+                <h2 class="mb-0">Rs. 8750.00 <small>per month</small></h2>
+                <div class="mt-4 product-share">
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-green">
+                    <i class="fab fa-whatsapp-square fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-primary">
+                    <i class="fab fa-viber fa-2x"></i>
+                  </a>
+                  <a href="#" class="text-blue">
+                    <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                </div>
+                <hr />
+                <div class="container my-3">
+                  <iframe
+                    style="
+                      border-style: solid;
+                      border-width: 0.0001px;
+                      border-color: #daf1ac;
+                    "
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.792134928565!2d79.8986783147722!3d6.795127595088539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae245416b7f34b5%3A0x7bd32721ab02560e!2sUniversity%20of%20Moratuwa!5e0!3m2!1sen!2slk!4v1612790107597!5m2!1sen!2slk"
+                    width="400"
+                    height="300"
+                    frameborder="0"
+                    style="border: 0"
+                    allowfullscreen=""
+                    aria-hidden="false"
+                    tabindex="0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- Page Features -->
+        <h1>Similar Advertisements</h1>
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-60">
+              <img
+                style="height: 40%"
+                class="card-img-top"
+                src="./assets/room1.jpg"
+                alt=""
+              />
+              <div class="card-body mb-0">
+                <div class="d-flex flex-row justify-content-between mb-0 px-3">
+                  <b><i class="fas fa-star p-0"></i>4.6</b>
+                  <a class="float-right"
+                    ><h5 class="text-bold">Uncle's Place</h5>
+                    <h5 class="p-0">Piliyandala</h5>
+                  </a>
+                </div>
+                <hr class="mt-0 mx-3" />
+                <div class="d-flex flex-row justify-content-between mb-0 px-3">
+                  <small class="text-muted mt-1">STARTING AT</small>
+                  <h6 class="text-muted">Rs. 22,495</h6>
+                </div>
+                <div class="d-flex flex-row justify-content-between mid px-3">
+                  <div class="d-flex flex-column">
+                    <small class="text-muted mb-1">Rooms</small>
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-house-user text-muted"></i>
+                      <div class="d-flex flex-column ml-1">
+                        <small class="text-muted">10</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <small class="text-muted mb-2">Bathrooms</small>
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-bath text-muted"></i>
+                      <h6 class="ml-1 text-muted">5</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer mt-0">
+                <a
+                  class="btn btn-warning font-weight-bold text-dark text-uppercase l-5"
+                  href="./detail.html"
+                >
+                  Find Out More!
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-60">
+              <img
+                style="height: 40%"
+                class="card-img-top"
+                src="./assets/room2.jpg"
+                alt=""
+              />
+              <div class="card-body mb-0">
+                <div class="d-flex flex-row justify-content-between mb-0 px-3">
+                  <b><i class="fas fa-star p-0"></i>4.6</b>
+                  <a class="float-right"
+                    ><h5 class="text-bold">Uncle's Place</h5>
+                    <h5 class="p-0">Piliyandala</h5>
+                  </a>
+                </div>
+                <hr class="mt-0 mx-3" />
+                <div class="d-flex flex-row justify-content-between mb-0 px-3">
+                  <small class="text-muted mt-1">STARTING AT</small>
+                  <h6 class="text-muted">Rs. 22,495</h6>
+                </div>
+                <div class="d-flex flex-row justify-content-between mid px-3">
+                  <div class="d-flex flex-column">
+                    <small class="text-muted mb-1">Rooms</small>
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-house-user text-muted"></i>
+                      <div class="d-flex flex-column ml-1">
+                        <small class="text-muted">10</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <small class="text-muted mb-2">Bathrooms</small>
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-bath text-muted"></i>
+                      <h6 class="ml-1 text-muted">5</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer mt-0">
+                <a
+                  class="btn btn-warning font-weight-bold text-dark text-uppercase l-5"
+                  href="./detail.html"
+                >
+                  Find Out More!
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- header image -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-60">
+              <img
+                style="height: 40%"
+                class="card-img-top"
+                src="./assets/room1.jpg"
+                alt=""
+              />
+              <div class="card-body mb-0">
+                <div class="d-flex flex-row justify-content-between mb-0 px-3">
+                  <b><i class="fas fa-star p-0"></i>4.6</b>
+                  <a class="float-right"
+                    ><h5 class="text-bold">Uncle's Place</h5>
+                    <h5 class="p-0">Piliyandala</h5>
+                  </a>
+                </div>
+                <hr class="mt-0 mx-3" />
+                <div class="d-flex flex-row justify-content-between mb-0 px-3">
+                  <small class="text-muted mt-1">STARTING AT</small>
+                  <h6 class="text-muted">Rs. 22,495</h6>
+                </div>
+                <div class="d-flex flex-row justify-content-between mid px-3">
+                  <div class="d-flex flex-column">
+                    <small class="text-muted mb-1">Rooms</small>
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-house-user text-muted"></i>
+                      <div class="d-flex flex-column ml-1">
+                        <small class="text-muted">10</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <small class="text-muted mb-2">Bathrooms</small>
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-bath text-muted"></i>
+                      <h6 class="ml-1 text-muted">5</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer mt-0">
+                <a
+                  class="btn btn-warning font-weight-bold text-dark text-uppercase l-5"
+                  href="./detail.html"
+                >
+                  Find Out More!
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- end header image -->
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-60">
+              <img
+                style="height: 40%"
+                class="card-img-top"
+                src="./assets/room2.jpg"
+                alt=""
+              />
+              <div class="card-body mb-0">
+                <div class="d-flex flex-row justify-content-between mb-0 px-3">
+                  <b><i class="fas fa-star p-0"></i>4.6</b>
+                  <a class="float-right"
+                    ><h5 class="text-bold">Uncle's Place</h5>
+                    <h5 class="p-0">Piliyandala</h5>
+                  </a>
+                </div>
+                <hr class="mt-0 mx-3" />
+                <div class="d-flex flex-row justify-content-between mb-0 px-3">
+                  <small class="text-muted mt-1">STARTING AT</small>
+                  <h6 class="text-muted">Rs. 22,495</h6>
+                </div>
+                <div class="d-flex flex-row justify-content-between mid px-3">
+                  <div class="d-flex flex-column">
+                    <small class="text-muted mb-1">Rooms</small>
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-house-user text-muted"></i>
+                      <div class="d-flex flex-column ml-1">
+                        <small class="text-muted">10</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <small class="text-muted mb-2">Bathrooms</small>
+                    <div class="d-flex flex-row">
+                      <i class="fas fa-bath text-muted"></i>
+                      <h6 class="ml-1 text-muted">5</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer mt-0">
+                <a
+                  class="btn btn-warning font-weight-bold text-dark text-uppercase l-5"
+                  href="./detail.html"
+                >
+                  Find Out More!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Learn More</h5>
+              <ul class="list-unstyled quick-links">
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Register</a
+                  >
+                </li>
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Post Your Add</a
+                  >
+                </li>
+                <li>
+                  <a href="/#"><i class="fa fa-angle-double-right"></i>FAQ</a>
+                </li>
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Get Started</a
+                  >
+                </li>
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Add Promotion</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>Help & Support</h5>
+              <ul class="list-unstyled quick-links">
+                <li>
+                  <a href="/#"><i class="fa fa-angle-double-right"></i>FAQ</a>
+                </li>
+                <li>
+                  <a href="/#"><i class="fa fa-angle-double-right"></i>About</a>
+                </li>
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Contact us</a
+                  >
+                </li>
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Get Started</a
+                  >
+                </li>
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Add Promotion</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <h5>About</h5>
+              <ul class="list-unstyled quick-links">
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>About us</a
+                  >
+                </li>
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Terms &
+                    Conditions</a
+                  >
+                </li>
+                <li>
+                  <a href="/#"
+                    ><i class="fa fa-angle-double-right"></i>Privacy Policy</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center text-white">
+              <img class="navbar-brand" src="assets/house.png" />
+              <a class="navbar-brand font-weight-bold" href="#">Bodima.lk</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-sm-3">
+              <ul class="list-unstyled list-inline social text-center">
+                <li class="list-inline-item">
+                  <a href="/#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="/#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="/#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="/#"><i class="fab fa-google-plus"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="/#" target="_blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <hr />
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center text-white">
+              <hr class="footerLine" />
+              <p class="h6">
+                © All right Reversed.<a
+                  class="text-green ml-2"
+                  href="/#"
+                  target="_blank"
+                  >Bodima.lk</a
+                >
+              </p>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge("uibutton", $.ui.button);
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="plugins/chart.js/Chart.min.js"></script>
+    <!-- Sparkline -->
+    <script src="plugins/sparklines/sparkline.js"></script>
+    <!-- JQVMap -->
+    <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="dist/js/pages/dashboard.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js"></script>
+  </body>
+</html>
